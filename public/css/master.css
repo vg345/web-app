@@ -1,8 +1,11 @@
 ul li {
-    display: inline-flex;
-    background-color: rgb(30, 30, 255);
-    background-color: rgba(30, 30, 255, 0.8);
+    display: inline-block;
+    width: 0.3vw;
     padding: 20px
+}
+
+ul li a:hover {
+    background-color: yellow
 }
 
 h1 {
