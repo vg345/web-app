@@ -10,19 +10,19 @@ app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
     res.render('home.hbs', {
-        title: Home
+        title: 'Home'
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about.hbs', {
-        title: About
+        title: 'About'
     })
 })
 
 app.get('/contact', (req, res) => {
     res.render('contact.hbs', {
-        title: Contact
+        title: 'Contact'
     })
 })
 
