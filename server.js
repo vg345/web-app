@@ -8,7 +8,17 @@ hbs.registerPartials(__dirname + '/views/partials');
 app.set('view engine', 'hbs');
 app.use(express.static(__dirname + '/public'));
 
-app.get('/')
+app.get('/', (req, res) => {
+    res.render('home.hbs')
+})
+
+app.get('/about', (req, res) => {
+    res.render('about.hbs')
+})
+
+app.get('/contact', (req, res) => {
+    res.render('contact.hbs')
+})
 
 app.listen(port, ()=> {
     console.log(`Server is up on port ${port}`)
