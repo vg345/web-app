@@ -1,13 +1,15 @@
 ul li {
-    display: inline-block;
-    width: 0.3vw;
-    padding: 20px
+    display:inline-block;
+    background-color: #f66666;
+    padding: 10px 20px;
+    text-align: center;
 }
 
-ul li a:hover {
-    background-color: yellow
+ul li a {
+    color: #e0f786;
 }
 
-h1 {
-    font-style: italic;
+ul li:hover {
+    color: #f66666;
+    background-color: #f5cf97
 }
